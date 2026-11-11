@@ -1,20 +1,21 @@
-# Banco Digital em C
+# UAIBank - Banco Digital em C
 
-Simulação de um banco digital via terminal, desenvolvida em C como trabalho final da disciplina Laboratório de ICC 1 na USP (ICMC).
+Simulação de um banco digital via terminal, desenvolvida em C como
+trabalho final da disciplina Laboratório de ICC 1 (USP/ICMC).
 
 ## Funcionalidades
-- [ex.: cadastro de clientes e abertura de contas]
-- [ex.: depósito, saque e transferência entre contas]
-- [ex.: consulta de saldo e extrato]
-- [ex.: persistência dos dados em arquivo (arqq.txt)]
+- Cadastro de usuário (individual e em lote), com validação de nome, idade e saldo
+- Busca de usuário por ID
+- Transferência entre usuários, com validação de saldo
+- Exclusão de usuário por ID
+- Persistência dos dados em arquivo (arqq.txt)
 
 ## Conceitos aplicados
-- [ex.: structs, ponteiros, alocação dinâmica]
-- [ex.: manipulação de arquivos]
-- [ex.: modularização em funções]
+- Structs e ponteiros
+- Alocação dinâmica de memória (malloc/realloc)
+- Manipulação de arquivos
+- Modularização em funções
 
 ## Como compilar e executar
-```bash
 gcc uai.c -o banco
 ./banco
-```
